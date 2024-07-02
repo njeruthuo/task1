@@ -95,11 +95,27 @@ body {
   width: 100%;
 }
 
-h3 span{
-    font-weight: lighter;
+h3 span {
+  font-weight: lighter;
 }
 
-h2{
-    font-weight: light;
+h2 {
+  font-weight: light;
 }
 
+@media (max-width: 600px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    display: none;
+  }
+
+  .content {
+    width: 95%;
+    margin: 1rem auto;
+    font-size: 0.75rem;
+  }
+}
