@@ -700,7 +700,6 @@ li:hover {
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
   font-style: normal;
 }
 
@@ -708,13 +707,13 @@ h1 {
   font-weight: 900;
 }
 
-h2{
+h2 {
   font-weight: 500;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem
+  padding-bottom: 0.5rem;
 }
 
-p{
+p {
   line-height: 18px;
 }
 
@@ -722,7 +721,8 @@ span {
   font-weight: 300;
 }
 
-#aboutMe a, footer a {
+#aboutMe a,
+footer a {
   --tw-text-opacity: 1;
   color: rgb(153 27 27 / var(--tw-text-opacity));
   text-decoration-line: underline;

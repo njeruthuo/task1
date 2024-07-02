@@ -13,7 +13,6 @@ li {
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
   font-style: normal;
 }
 
@@ -21,19 +20,20 @@ h1 {
   font-weight: 900;
 }
 
-h2{
-    font-weight: 500;
-    @apply py-2
+h2 {
+  font-weight: 500;
+  @apply py-2;
 }
 
-p{
-    line-height: 18px;
+p {
+  line-height: 18px;
 }
 
-span{
-    @apply font-light
+span {
+  @apply font-light;
 }
 
-#aboutMe a, footer a{
-    @apply text-red-800 underline
+#aboutMe a,
+footer a {
+  @apply text-red-800 underline;
 }
