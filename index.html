@@ -10,52 +10,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HNG | Julius Njeru</title>
-    <link href="./output.css" rel="stylesheet" />
+    <link href="./file.css" rel="stylesheet" />
   </head>
-  <body class="bg-gradient-to-r from-teal-500 via-blue-500 to-cyan-500">
+  <body class="bg-gradient">
     <!-- Navigation -->
-    <nav class="bg-slate-600 text-white">
-      <ul class="flex justify-end mx-auto w-[85%] py-4 md:space-x-12 space-x-6">
-        <li class="mr-auto md:text-xl text-md"><h1>Julius N. Thuo</h1></li>
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li class="site-title"><h1>Julius N. Thuo</h1></li>
         <li>AboutMe</li>
         <li>Vision</li>
       </ul>
     </nav>
 
-    <div id="aboutMe" class="w-[85%] mx-auto mt-4 text-xs">
-      <div class="flex flex-col sm:flex-row space-x-8">
-        <div
-          data-testid="slackProfilePicture"
-          class="md:w-1/2 place-items-start flex justify-center"
-        >
-          <img class="rounded-xl" src="./file1.jpg" alt="" />
+    <div id="aboutMe" class="content">
+      <div class="content-container">
+        <div data-testid="slackProfilePicture" class="profile-picture">
+          <img class="rounded" src="./file1.jpg" alt="" />
         </div>
 
-        <div class="md:w-1/2 mt-8 md:mt-0">
+        <div class="about-section">
           <h2>AboutMe</h2>
           <hr />
 
-          <div class="mb-4 mt-4">
-            <h2 data-testid="Julius Njeru">Name: <span>Julius Njeru</span></h2>
-            <h2 data-testid="Juliusn411@gmail.com">
+          <div class="personal-info">
+            <h3 data-testid="Julius Njeru">Name: <span>Julius Njeru</span></h3>
+            <h3 data-testid="Juliusn411@gmail.com">
               Email: <span>Juliusn411@gmail.com</span>
-            </h2>
+            </h3>
 
-            <h2 data-testid="CurrentTimeUTC">
+            <h3 data-testid="CurrentTimeUTC">
               CurrentTime in UTC:
               <span id="UTCTime"></span>
-            </h2>
+            </h3>
 
-            <h2 data-testid="CurrentDay">
+            <h3 data-testid="CurrentDay">
               Current Day of the week:
               <span id="weekDay"></span>
-            </h2>
+            </h3>
           </div>
           <!-- My vision -->
-          <div id="vision" class="mb-4">
+          <div id="vision" class="vision-section">
             <h2>My Vision</h2>
             <hr />
-            <div class="mt-3">
+            <div class="vision-text">
               <p>
                 In the next two years, I will have accumulated skills and
                 graduated to a principal Full Stack developer with skills such
@@ -63,9 +60,9 @@
                 ReactJS, TailwindCSS, MaterialUI, Shadcn and Angular for
                 frontend development.
               </p>
-              <p class="my-2">
+              <p class="vision-paragraph">
                 From there, I will be ready to transition into Cybersecurity
-                where I will use Offensive security courses to learn hw to keep
+                where I will use Offensive security courses to learn how to keep
                 web applications safe and best development practices. I will
                 then take my CISSP and join a multinational company as a
                 security researcher.
@@ -93,7 +90,7 @@
         </div>
       </div>
 
-      <footer class="m-4 flex flex-col justify-center items-center space-y-2">
+      <footer class="footer">
         <p>
           <a target="_blank" data-testid="hngLink" href="https://hng.tech"
             >HNG</a

@@ -1,0 +1,105 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, #14b8a6, #3b82f6, #06b6d4);
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: #475569;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 85%;
+  margin: 0 auto;
+  /* padding: 1rem 0; */
+  list-style: none;
+}
+
+.site-title {
+  margin-right: auto;
+  font-size: 1.25rem; /* Adjusted for medium screens */
+  font-weight: bold;
+}
+
+.nav-list li {
+  margin-left: 1.5rem; /* Adjusted for small screens */
+  font-size: 1rem; /* Adjusted for small screens */
+}
+
+.content {
+  width: 85%;
+  margin: 1rem auto;
+  font-size: 0.75rem; /* Adjusted for small screens */
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem; /* Adjusted for small screens */
+}
+
+/* .profile-picture {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+} */
+
+.profile-picture img {
+  border-radius: 0.75rem;
+}
+
+.about-section {
+  flex: 1;
+  margin-top: 2rem; /* Adjusted for small screens */
+}
+
+.about-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.personal-info {
+  margin: 1rem 0;
+}
+
+.vision-section {
+  margin-bottom: 1rem;
+}
+
+.vision-text {
+  margin-top: 0.75rem;
+}
+
+.vision-paragraph {
+  margin: 1rem 0;
+}
+
+.footer {
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.footer hr {
+  width: 100%;
+}
+
+h3 span{
+    font-weight: lighter;
+}
+
+h2{
+    font-weight: light;
+}
+
