@@ -25,27 +25,34 @@
     <div id="aboutMe" class="content">
       <div class="content-container">
         <div class="profile-picture">
-          <img class="rounded" src="./file1.jpg" alt="" />
+          <img
+            data-testid="slackProfilePicture"
+            class="rounded"
+            src="./file1.jpg"
+            alt=""
+          />
         </div>
 
-        <div data-testid="slackProfilePicture" lass="about-section">
+        <div class="about-section">
           <h2>AboutMe</h2>
           <hr />
 
           <div class="personal-info">
-            <h3 data-testid="slackDisplayName">Name: <span>Julius Njeru</span></h3>
-            <h3 data-testid="slackEmail">
-              Email: <span>Juliusn411@gmail.com</span>
+            <h3>
+              Name: <span data-testid="slackDisplayName">Julius Njeru</span>
+            </h3>
+            <h3>
+              Email: <span data-testid="slackEmail">juliusn411@gmail.com</span>
             </h3>
 
-            <h3 data-testid="CurrentTimeUTC">
+            <h3>
               CurrentTime in UTC:
-              <span id="UTCTime"></span>
+              <span id="UTCTime" data-testid="CurrentTimeUTC"></span>
             </h3>
 
-            <h3 data-testid="CurrentDay">
+            <h3>
               Current Day of the week:
-              <span id="weekDay"></span>
+              <span id="weekDay" data-testid="CurrentDay"></span>
             </h3>
           </div>
           <!-- My vision -->
@@ -71,8 +78,8 @@
               <p>
                 <a
                   target="_blank"
-                  data-testid="hngLink"
                   href="https://hng.tech/"
+                  data-testid="hngLink"
                   >HNG11 internship</a
                 >
                 can be of very great assistance to get me there sooner. They
